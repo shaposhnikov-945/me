@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+
+body {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	font-family: 'productsans';
+	word-wrap: break-word;
+	line-height: 1.5;
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a:link {
+	color: #7751e0;
+ /* Цвет ссылок */;
+}
+
+a:visited {
+	color: #7751e0;
+ /* Цвет посещенных ссылок */;
+}
+
+a:active {
+	color: #7751e0;
+ /* Цвет активной ссылки */;
+}
+
+a, u {
+	text-decoration: none;
+}
+
+p {	    padding: 0px 10px;
+
+	margin: 0;
+	font-size: 16px;
+}
+
+li {	    padding: 0px 10px;
+
+	margin: 3px 0px;
+	font-size: 16px;
+}
+
+.main-div {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 960px;
+    border: 1px solid #eaecef;
+    border-radius: 10px 10px 0px 0px;
+}
+
+body h2 {
+	padding-bottom: 0.3em;
+	font-size: 1.5em;
+	border-bottom: 1px solid #eaecef;
+	font-size: 18px;
+	margin-top: 25px;
+	    padding: 0px 10px;
+
+}
+
+body h1 {	    padding: 0px 10px;
+
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+@font-face {
+	font-family: 'productsans';
+    src: url('fonts/productsans.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.cover {  animation: gradient 36s ease-in-out infinite;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	width: -webkit-fill-available;
+	height: 150px;
+	border-radius: 10px 10px 0px 0px;
+	background-image: url('https://sun9-west.userapi.com/sun9-62/s/v1/if2/j1ILVGZ2UIogRJ4QK3NhaCVvscG0eMyT5P8_t-40BWXrzlYUyT9KOY0BGU3kv-k9qDcGDQacsEd98wzCtsdfVim9.jpg?size=960x384&quality=96&crop=0,70,1600,640&type=helpers');
+}
+
+.ava {  
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	pointer-events: none;
+	display: flex;
+	width: 100px;
+	height: 100px;
+	margin: -55px auto 0px auto;
+	border-radius: 10px;
+	background-position: center center;
+	object-fit: cover;
+	background: var(--blue);
+	border: solid 6px white;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
