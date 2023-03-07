@@ -12,17 +12,17 @@ body {
 }
 
 a:link {
-	color: #e8aa1e;
+	color: #1c81ff;
  /* Цвет ссылок */;
 }
 
 a:visited {
-	color: #e8aa1e;
+	color: #1c81ff;
  /* Цвет посещенных ссылок */;
 }
 
 a:active {
-	color: #e8aa1e;
+	color: #1c81ff;
  /* Цвет активной ссылки */;
 }
 
@@ -48,7 +48,7 @@ li {	    padding: 0px 10px;
 .main-div {    background-color: white;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 960px;
+	max-width: 1024px;
      border-radius: 10px 10px 0px 0px;
 }
 
@@ -78,23 +78,40 @@ body h1 {
 	width: -webkit-fill-available;
 	height: 150px;
 	border-radius: 10px 10px 0px 0px;
-	background-image: url('https://sun9-west.userapi.com/sun9-62/s/v1/if2/j1ILVGZ2UIogRJ4QK3NhaCVvscG0eMyT5P8_t-40BWXrzlYUyT9KOY0BGU3kv-k9qDcGDQacsEd98wzCtsdfVim9.jpg?size=960x384&quality=96&crop=0,70,1600,640&type=helpers');
+	background-image: url('images/scale_1200.webp');
 }
 
 .ava {  
 	-webkit-user-select: none;
 	-moz-user-select: none;
-	pointer-events: none;
-	display: flex;
+ 	display: flex;
 	width: 100px;
 	height: 100px;
 	margin: -55px auto 0px auto;
 	border-radius: 10px;
 	background-position: center center;
 	object-fit: cover;
-	background: var(--blue);
+	background: url(https://sun9-west.userapi.com/sun9-46/s/v1/ig2/EpN4Fqjst86bD3vFafrRgYFu9XL21RMwGaav0NwgPlJCfBm1qk0OrgTTApNo2wpokHLkunDY-fsdXn20IGNo5oDE.jpg?size=1080x1080&quality=95&type=album) no-repeat;
 	border: solid 5px white;
+	    background-size: cover;
+
 }
+.ava:hover {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+ 	display: flex;
+	width: 100px;
+	height: 100px;
+	margin: -55px auto 0px auto;
+	border-radius: 10px;
+	background-position: center center;
+	object-fit: cover;
+	background: url(https://sun7.userapi.com/sun7-9/s/v1/ig2/b27No_WDG0RUFzN8ulQBNLNm8zwsxT8KoUCROGb_uEg3WdeaXlHThINTO9l-s_M-o0H3JlQ9s6BjQ2MfpzxnBH8A.jpg?size=1080x1080&quality=95&type=album) no-repeat; 
+	border: solid 5px white;
+	    background-size: cover;
+
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
