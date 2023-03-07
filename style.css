@@ -83,7 +83,7 @@ body h1 {
 	background-image: url('images/scale_1200.webp');
 }
 
-.ava {  
+.ava {      transition: 0.55s;
 	-webkit-user-select: none;
 	-moz-user-select: none;
  	display: flex;
